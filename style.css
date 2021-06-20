@@ -16,6 +16,26 @@ html {
 }
 
 body {
-    padding: 4rem;
+    padding: 6rem;
     font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+/************************************** WHOLE HEADER ****************************************/
+
+/***** HEADER TOP ******/
+
+.header-top{
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta{
+    background-color: white;
+    padding: 1rem 3.5rem;
+    border-radius: 4rem;
+    border-color: red;
+    outline: none;
 }
