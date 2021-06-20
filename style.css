@@ -96,4 +96,6 @@ body {
     align-items: center;
 }
 
-.
+.info{
+    display: flex;
+}
