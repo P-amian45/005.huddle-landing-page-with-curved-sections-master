@@ -90,12 +90,17 @@ body {
 
 
 .mockup-content{
+    margin: 0 12rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .info{
     display: flex;
+    justify-content: space-between;
+}
+
+.info-details{
+    
 }
