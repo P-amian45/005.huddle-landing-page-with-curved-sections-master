@@ -27,7 +27,7 @@ body {
 /***** HEADER TOP ******/
 
 .header-top{
-    margin-bottom: 6rem;
+    margin-bottom: 15rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,6 +43,7 @@ body {
     outline: none;
     font-size: 1.5rem;
     display: inline-block;
+    font-weight: 400;
 }
 
 /***** HEADER BOTTOM ******/
@@ -62,6 +63,28 @@ body {
 }
 
 .title--big{
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     font-size: 5rem;
 }
+
+.about{
+    text-align: center;
+    width: 45%;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 4rem;
+}
+
+.cta--big{
+    padding: 2.5rem 10rem;
+    background-color: var(--pink);
+    color: var(--very-pale-blue);
+    font-size: 2.2rem;
+    font-weight: 600;
+    border-color: var(--pink);
+}
+
+
+/************************************** IMAGE AND INFO ****************************************/
+
+
