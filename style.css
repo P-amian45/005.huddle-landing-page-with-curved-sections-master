@@ -65,6 +65,7 @@ body {
 .title--big{
     margin-bottom: 5rem;
     font-size: 5rem;
+    color: var(--very-dark-cyan);
 }
 
 .about{
@@ -96,11 +97,31 @@ body {
     justify-content: center;
 }
 
+.screen{
+    margin-bottom: 6rem;
+}
+
 .info{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .info-details{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.numbers{
+    margin: 7rem 0;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 9rem;
+    color: var(--very-dark-cyan);
+}
+
+.description{
+    color: var(--very-dark-cyan);
+    font-weight: 400;
+    font-size: 1.5rem;
+
 }
