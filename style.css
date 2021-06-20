@@ -13,6 +13,7 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 body {
@@ -36,6 +37,31 @@ body {
     background-color: white;
     padding: 1rem 3.5rem;
     border-radius: 4rem;
-    border-color: red;
+    border-color: var(--pink);
+    border-width: .1rem;
+    color: var(--pink);
     outline: none;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+/***** HEADER BOTTOM ******/
+
+.header-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+
+}
+
+.title{
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 700;
+}
+
+.title--big{
+    margin-bottom: 3rem;
+    font-size: 5rem;
 }
