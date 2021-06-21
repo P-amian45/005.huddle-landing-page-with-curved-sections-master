@@ -133,7 +133,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30initrem 8rem;
+    margin: 30rem 8rem;
 }
 
 .svgs{
