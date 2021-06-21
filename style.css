@@ -95,7 +95,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 8rem;
+    margin-bottom: 35rem;
 }
 
 .screen{
@@ -131,7 +131,9 @@ body {
 
 .missions{
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin: 30initrem 8rem;
 }
 
 .svgs{
