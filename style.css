@@ -129,14 +129,12 @@ body {
 
 /************************************** SKILLS PART ****************************************/
 
-.skills{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .missions{
     display: flex;
     align-items: center;
+}
+
+.svgs{
+    width: 50rem;
+    height: auto;
 }
