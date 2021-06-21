@@ -126,3 +126,17 @@ body {
     font-size: 2rem;
     align-self: center;
 }
+
+/************************************** SKILLS PART ****************************************/
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.missions{
+    display: flex;
+    align-items: center;
+}
