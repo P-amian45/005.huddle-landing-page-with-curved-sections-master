@@ -133,8 +133,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30rem 6rem;
-    background-image: url(images/bg-section-top-desktop-1.svg);
+    margin: 20rem 5rem;
+    padding: 10rem 1rem;
+    position: relative;
 }
 
 
@@ -148,7 +149,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30rem 6rem;
+    margin: 20rem 6rem;
+    padding: 10rem 0rem;
+    position: relative;
 }
 
 .svgs{
