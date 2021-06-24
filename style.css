@@ -129,7 +129,21 @@ body {
 
 /************************************** SKILLS PART ****************************************/
 
-.missions{
+.missions__one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30rem 6rem;
+}
+
+
+.missions__two{
+    display: flex;
+    align-items: center;
+
+}
+
+.missions__three{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -139,6 +153,10 @@ body {
 .svgs{
     width: 50rem;
     height: auto;
+}
+
+.utility-margin-right{
+    margin-right: 5rem;
 }
 
 .title--normal{
@@ -151,4 +169,13 @@ body {
     font-size: 1.5rem;
     text-align: left;
     width: 70%;
+}
+
+.utility-width-margin{
+    width: 75%;
+    margin-bottom: 1.5rem;
+}
+
+.utility-margin{
+    margin-left: 15rem;
 }
