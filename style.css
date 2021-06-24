@@ -38,8 +38,7 @@ body {
     background-color: white;
     padding: 1rem 3.5rem;
     border-radius: 4rem;
-    border-color: var(--pink);
-    border-width: .1rem;
+    border: .1rem solid var(--pink);
     color: var(--pink);
     outline: none;
     font-size: 1.5rem;
