@@ -134,7 +134,7 @@ body {
 .missions__one{
     display: flex;
     align-items: center;
-    padding: 30rem 15rem;
+    padding: 30rem 8rem;
     position: relative;
 }
 
@@ -148,7 +148,7 @@ body {
 .missions__three{
     display: flex;
     align-items: center;
-    padding: 30rem 10rem;
+    padding: 30rem 8rem;
     position: relative;
 }
 
@@ -162,6 +162,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-left: 5rem;
 }
 
 .title--normal{
