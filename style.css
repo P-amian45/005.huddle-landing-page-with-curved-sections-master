@@ -17,7 +17,6 @@ html {
 }
 
 body {
-    padding: 6rem;
     font-size: 1.5rem;
     line-height: 1.5rem;
     overflow-x: hidden;
@@ -25,6 +24,9 @@ body {
 
 /************************************** WHOLE HEADER ****************************************/
 
+.header{
+    padding: 6rem;
+}
 /***** HEADER TOP ******/
 
 .header-top{
@@ -91,7 +93,7 @@ body {
 
 
 .mockup-content{
-    margin: 0 12rem;
+    margin: 0 18rem 35rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,10 +133,8 @@ body {
 
 .missions__one{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 20rem 5rem;
-    padding: 10rem 1rem;
+    padding: 30rem 15rem;
     position: relative;
 }
 
@@ -147,10 +147,8 @@ body {
 
 .missions__three{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 20rem 6rem;
-    padding: 10rem 0rem;
+    padding: 30rem 10rem;
     position: relative;
 }
 
@@ -159,8 +157,11 @@ body {
     height: auto;
 }
 
-.utility-margin-right{
-    margin-right: 5rem;
+.layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .title--normal{
@@ -172,12 +173,8 @@ body {
 .about--little{
     font-size: 1.5rem;
     text-align: left;
-    width: 70%;
-}
-
-.utility-width-margin{
-    width: 75%;
-    margin-bottom: 1.5rem;
+    width: 63%;
+    margin-bottom: 0;
 }
 
 .utility-margin{
