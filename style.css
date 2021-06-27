@@ -142,6 +142,7 @@ body {
 .missions__two{
     display: flex;
     align-items: center;
+    padding: 0 8rem;
 
 }
 
@@ -180,4 +181,8 @@ body {
 
 .utility-margin{
     margin-left: 15rem;
+}
+
+.utility-width{
+    width: 80%;
 }
