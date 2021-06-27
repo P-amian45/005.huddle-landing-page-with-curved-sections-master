@@ -93,7 +93,7 @@ body {
 
 
 .mockup-content{
-    margin: 0 18rem 35rem;
+    margin: 0 18rem 15rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -134,7 +134,7 @@ body {
 .missions__one{
     display: flex;
     align-items: center;
-    padding: 30rem 8rem;
+    padding: 20rem 10rem;
     position: relative;
 }
 
@@ -142,14 +142,14 @@ body {
 .missions__two{
     display: flex;
     align-items: center;
-    padding: 0 8rem;
+    padding: 0 10rem;
 
 }
 
 .missions__three{
     display: flex;
     align-items: center;
-    padding: 30rem 8rem;
+    padding: 20rem 10rem;
     position: relative;
 }
 
@@ -175,14 +175,15 @@ body {
 .about--little{
     font-size: 1.5rem;
     text-align: left;
-    width: 63%;
+    width: 70%;
     margin-bottom: 0;
 }
 
 .utility-margin{
-    margin-left: 15rem;
+    margin-left: 16rem;
 }
 
 .utility-width{
-    width: 80%;
+    width: 85%;
 }
+
