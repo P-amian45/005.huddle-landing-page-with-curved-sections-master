@@ -136,6 +136,10 @@ body {
     align-items: center;
     padding: 15rem 10rem;
     position: relative;
+    background-image: url(images/bg-section-top-desktop-1.svg), url(images/bg-section-bottom-desktop-1.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 10% left 100%, bottom 10% left 100%;
+    background-size: 120%, 120%;
 }
 
 
