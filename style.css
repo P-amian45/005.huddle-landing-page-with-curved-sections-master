@@ -136,7 +136,7 @@ body {
     align-items: center;
     padding: 10rem;
     position: relative;
-    margin: 15rem 0;
+    margin: 15rem 0 20rem;
     background-color: var(--very-pale-blue);
     background-clip: padding-box;
 }
@@ -169,8 +169,27 @@ body {
 .missions__three{
     display: flex;
     align-items: center;
-    padding: 15rem 10rem;
+    padding: 10rem 0 5rem;
+    margin: 25rem 0 15rem;
+    background-color: var(--very-pale-blue);
+    background-clip: padding-box;
     position: relative;
+}
+
+.missions__three::before{
+    content: url(images/bg-section-top-desktop-2.svg);
+    position: absolute;
+    top: -15rem;
+    left: 0;
+    z-index: -1;
+}
+
+.missions__three::after{
+    content: url(images/bg-section-bottom-desktop-2.svg);
+    position: absolute;
+    bottom: -10rem;
+    left: 0;
+    z-index: -1;
 }
 
 .svgs{
