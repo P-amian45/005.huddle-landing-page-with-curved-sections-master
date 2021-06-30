@@ -134,12 +134,24 @@ body {
 .missions__one{
     display: flex;
     align-items: center;
-    padding: 15rem 10rem;
+    padding: 10rem;
     position: relative;
-    background-image: url(images/bg-section-top-desktop-1.svg), url(images/bg-section-bottom-desktop-1.svg);
-    background-repeat: no-repeat, no-repeat;
-    background-position: top 10% left 100%, bottom 10% left 100%;
-    background-size: 120%, 120%;
+    margin: 5rem 0;
+    background-color: var(--very-pale-blue);
+    background-clip: padding-box;
+}
+
+.missions__one::before{
+    content: url(images/bg-section-top-desktop-1.svg);
+    position: absolute;
+    top: -15rem;
+    left: 0;
+    z-index: -1;
+
+}
+
+.missions__one::before{
+
 }
 
 
