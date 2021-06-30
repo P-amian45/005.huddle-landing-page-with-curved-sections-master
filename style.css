@@ -136,7 +136,7 @@ body {
     align-items: center;
     padding: 10rem;
     position: relative;
-    margin: 5rem 0;
+    margin: 15rem 0;
     background-color: var(--very-pale-blue);
     background-clip: padding-box;
 }
@@ -150,8 +150,12 @@ body {
 
 }
 
-.missions__one::before{
-
+.missions__one::after{
+    content: url(images/bg-section-bottom-desktop-1.svg);
+    position: absolute;
+    bottom: -10rem;
+    left: 0;
+    z-index: -1;
 }
 
 
