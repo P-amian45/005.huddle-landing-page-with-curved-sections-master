@@ -242,3 +242,13 @@ body {
     background-color: var(--very-dark-cyan);
     color: #fafafa;
 }
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-bottom{
+    margin: 2rem 0;
+    width: 50%;
+}
