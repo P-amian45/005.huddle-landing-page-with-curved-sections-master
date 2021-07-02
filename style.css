@@ -239,4 +239,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--very-dark-cyan);
+    color: #fafafa;
 }
