@@ -229,4 +229,14 @@ body {
 
 .ready{
     text-align: center;
+    margin-bottom: 15rem;
+}
+
+
+/************************************** FOOTER PART ****************************************/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
