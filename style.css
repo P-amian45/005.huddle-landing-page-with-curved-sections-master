@@ -182,7 +182,6 @@ body {
     position: absolute;
     top: -15rem;
     left: 0;
-    z-index: -1;
 }
 
 .missions__three::after{
@@ -190,7 +189,6 @@ body {
     position: absolute;
     bottom: -14rem;
     left: 0;
-    z-index: -1;
 }
 
 .svgs{
@@ -270,3 +268,4 @@ body {
     display: flex;
     align-items: center;
 }
+
