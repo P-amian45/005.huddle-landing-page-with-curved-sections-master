@@ -238,16 +238,24 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: var(--very-dark-cyan);
+    background-clip: padding-box;
     color: #fafafa;
+    padding: 10rem;
 }
+
+
 
 .footer-left{
     display: flex;
     flex-direction: column;
 }
 
+.logo-white{
+    margin-bottom: 2rem;
+}
+
 .about-bottom{
-    margin: 2rem 0;
+    margin: 2rem 0 3rem;
     width: 50%;
 }
 
@@ -267,5 +275,6 @@ body {
 .media{
     display: flex;
     align-items: center;
+    margin-top: 5rem;
 }
 
