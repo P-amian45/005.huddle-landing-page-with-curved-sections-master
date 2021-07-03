@@ -235,8 +235,6 @@ body {
 
 .footer{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: var(--very-dark-cyan);
     background-clip: padding-box;
     color: #fafafa;
@@ -258,6 +256,7 @@ body {
 .footer-left{
     display: flex;
     flex-direction: column;
+    margin-right: auto;
 }
 
 .logo-white{
@@ -266,7 +265,8 @@ body {
 
 .about-bottom{
     margin: 2rem 0 3rem;
-    width: 60%;
+    width: 61%;
+    line-height: 2.5rem;
 }
 
 .contact-box{
@@ -294,3 +294,45 @@ body {
 
 
 /************************************** FOOTER RIGHT PART ****************************************/
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15rem;
+}
+
+.newsletter{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.newsletter-input{
+    width: 33rem;
+    height: 5rem;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-right: 2rem;
+    outline: none;
+    border-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.newsletter-input:focus{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.cta--rounded{
+    border-radius: 1rem;
+    padding: 1.5rem 6rem;
+    background-color: var(--pink);
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: white;
+    
+}
