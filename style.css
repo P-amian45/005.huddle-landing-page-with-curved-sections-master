@@ -236,7 +236,6 @@ body {
 .footer{
     display: flex;
     background-color: var(--very-dark-cyan);
-    background-clip: padding-box;
     color: #fafafa;
     padding: 10rem;
     position: relative;
