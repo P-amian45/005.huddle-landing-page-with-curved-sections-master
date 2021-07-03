@@ -241,9 +241,15 @@ body {
     background-clip: padding-box;
     color: #fafafa;
     padding: 10rem;
+    position: relative;
 }
 
-
+.footer::before{
+    content: url(images/bg-footer-top-desktop.svg);
+    position: absolute;
+    top: -15rem;
+    left: 0;
+}
 
 .footer-left{
     display: flex;
@@ -256,7 +262,7 @@ body {
 
 .about-bottom{
     margin: 2rem 0 3rem;
-    width: 50%;
+    width: 60%;
 }
 
 .contact-box{
