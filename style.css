@@ -46,11 +46,13 @@ body {
     font-size: 1.5rem;
     display: inline-block;
     font-weight: 400;
+    transition: all .3s;
 }
 
 .cta:hover{
     border-color: var(--light-pink);
     color: var(--light-pink);
+    cursor: pointer;
 }
 
 /***** HEADER BOTTOM ******/
@@ -92,6 +94,13 @@ body {
     font-weight: 600;
     border-color: var(--pink);
     margin: 2rem 0;
+    transition: all .3s;
+}
+
+.cta--big:hover{
+    background-color: var(--light-pink);
+    color: white;
+    cursor: pointer;
 }
 
 
