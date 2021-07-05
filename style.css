@@ -315,9 +315,14 @@ body {
     fill: #1DA1F2;
 }
 
-.instagram{
+.instagram:hover{
     cursor: pointer;
-    
+    fill: var(--light-pink);
+}
+
+.facebook:hover{
+    cursor: pointer;
+    fill: #4267B2;
 }
 
 /************************************** FOOTER RIGHT PART ****************************************/
