@@ -305,6 +305,20 @@ body {
     margin-right: 2rem;
 }
 
+.twitter, .instagram, .facebook{
+    fill: white;
+    transition: fill .4s;
+}
+
+.twitter:hover{
+    cursor: pointer;
+    fill: #1DA1F2;
+}
+
+.instagram{
+    cursor: pointer;
+    
+}
 
 /************************************** FOOTER RIGHT PART ****************************************/
 
@@ -340,6 +354,10 @@ body {
 
 }
 
+.newsletter-input:invalid{
+    border-color: var(--light-pink);
+}
+
 .cta--rounded{
     border-radius: 1rem;
     padding: 1.5rem 6rem;
@@ -347,4 +365,10 @@ body {
     font-size: 1.7rem;
     font-weight: 600;
     color: white;   
+}
+
+.cta--rounded:hover{
+    background-color: var(--light-pink);
+    color: white;
+    cursor: pointer;
 }
